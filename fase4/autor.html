@@ -30,6 +30,15 @@
             background-color:darkgreen;
         }
         
+        @media screen and (max-width:768px) {
+          header{
+            flex-direction: column;
+          }
+
+          footer{
+            font-size: 13px;
+          }
+        }
     </style>
 
   </head>
@@ -78,9 +87,9 @@
 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-9 bg-primary">
+          <div class="col-sm-8 bg-primary">
             <article>
-                <img src="img/info.png" alt="info logo" width="100" height="100">
+                <img class="img-fluid" src="img/info.png" alt="info logo" width="100" height="100">
                 <h1>Acerca de.</h1>
                 <h2>Informacion del autor</h2>
                 <ul class="datosautor">
@@ -91,10 +100,10 @@
                 </ul>
             </article>
           </div>
-          <div class="col-sm-3 bg-danger">
+          <div class="col-sm-4 bg-danger">
             <aside>
-              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-            </aside>
+              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>  
+          </aside>
           </div>
         </div>
 

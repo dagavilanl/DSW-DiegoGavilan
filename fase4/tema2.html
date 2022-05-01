@@ -29,7 +29,15 @@
             
             background-color:darkgreen;
         }
-        
+        @media screen and (max-width:768px) {
+          header{
+            flex-direction: column;
+          }
+
+          footer{
+            font-size: 13px;
+          }
+        }
     </style>
 
   </head>
@@ -78,13 +86,13 @@
 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-9 bg-primary">
+          <div class="col-sm-8 bg-primary">
             <article>
                 <h1>Tema 2</h1>
                 <h2>CSS Grid</h2>
                 <p>CSS Grid es una técnica para crear sitios web adaptables. Permite crear diseños asimétricos también permite usar código estandarizado que es compatible con todos los navegadores.</p>
                 <p>A pesar de que no está estandarizado todos los navegadores lo soportan actualmente.</p>
-                <img src="img/cssgrid.png" alt="representacion grafica de un grid" width="520" height="300">
+                <img class="img-fluid" src="img/cssgrid.png" alt="representacion grafica de un grid" width="520" height="300">
                
                 <ul class="listareferencias">
                     <li>CSS grid layout. (13 de Abril de 2022). En Wikipedia. <a href="https://es.wikipedia.org/wiki/CSS_grid_layout" class="link-dark">https://es.wikipedia.org/wiki/CSS_grid_layout</a></li>
@@ -92,10 +100,10 @@
     
             </article>
           </div>
-          <div class="col-sm-3 bg-danger">
+          <div class="col-sm-4 bg-danger">
             <aside>
-              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-            </aside>
+              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>  
+          </aside>
           </div>
         </div>
 

@@ -29,6 +29,16 @@
             
             background-color:darkgreen;
         }
+
+        @media screen and (max-width:768px) {
+          header{
+            flex-direction: column;
+          }
+
+          footer{
+            font-size: 13px;
+          }
+        }
         
     </style>
 
@@ -36,9 +46,9 @@
   </head>
   <body>
     <header class="p-3 mb-2 bg-secondary text-black text-center">
-        <img src="img/logo.png" alt="logo" height="120" width="150">
-        <h1>Fase 4 | DSW-DiegoGavilan</h1>   
-    </header>
+      <img src="img/logo.png" alt="logo" height="120" width="150">
+      <h1>Fase 4 | DSW-DiegoGavilan</h1>   
+  </header>
 
     <nav class="navbar text-center navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -79,20 +89,20 @@
 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-9 bg-primary">
+          <div class="col-md-8 bg-primary">
             <article>
                 <h2>Introducción</h2>
                     <p>
                     En esta fase se aplicaran los estilos CSS y los diferentes elementos HTML para conseguir un diseño funcional, fácil de manejar y agradable al usuario.
                     </p>
                 <br>
-                <img src="img/csshtml.png" alt="css y html logo" width="500" height="250">
+                <img class="img-fluid" src="img/csshtml.png" alt="css y html logo" width="500" height="250">
     
             </article>
           </div>
-          <div class="col-sm-3 bg-danger">
+          <div class="col-md-4 bg-danger">
             <aside>
-              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>  
             </aside>
           </div>
         </div>
